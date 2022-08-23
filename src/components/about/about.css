@@ -90,13 +90,12 @@
     }
 
     .about__me-image {
-        transform: none;
+        transform: unset;
     }
 
     .about__cards {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
-        margin: 0 0.5rem;
     }
 
     .about__content {

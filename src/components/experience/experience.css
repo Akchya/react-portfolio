@@ -40,36 +40,11 @@
     color: var(--color-primary);
 }
 
-.project__name {
-    display: flex;
-    width: 100%;
-    gap: 1rem;
-    float: left;
-}
-
-.project__name > h3 {
-    margin-bottom: 5px;
-    color: var(--color-primary);
-}
-
-.project__title-icon {
-    margin-top: 6px;
-    font-size: 1.4rem;
-    color: var(--color-primary);
-}
-
-.content-1::before {
-    content: '\a';
-    white-space: pre;
-}
-
-/* small.content-1::before {
-    text-indent: 1rem;
-} */
-
 /* =========================== MEDIA QUERIES ( MEDIUM DEVICES) ==============================*/
 @media screen and (max-width: 1024px) {
     .experience__container {
+        align-items: center;
+        justify-items: center;
         grid-template-columns: 1fr;
     }
 
