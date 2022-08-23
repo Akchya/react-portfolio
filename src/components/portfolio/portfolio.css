@@ -1,0 +1,74 @@
+.portfolio__container {
+    display: flex;
+}
+
+.portfolio__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+}
+
+.invert {
+    align-self: flex-end;
+    flex-direction: row-reverse;
+}
+
+.invert > div {
+    margin-right: 1.5rem;
+    text-align-last: end;
+}
+
+.portfolio__card {
+    background: var(--color-bg-variant);
+    padding: 2.4rem;
+    width: 52%;
+    display: flex;
+    border-radius: 2rem;
+    grid-template-columns: auto 1fr;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.portfolio__card:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.portfolio__icon {
+    display: flex;
+    margin-top: 6px;
+    font-size: 2rem;
+    color: var(--color-primary);
+}
+
+.portfolio__card:not(.invert) > div {
+    margin-left: 1.5rem;
+}
+
+/* =========================== MEDIA QUERIES ( MEDIUM DEVICES) ==============================*/
+@media screen and (max-width: 1024px) {
+    .portfolio__card {
+        width: 85%;
+    }
+}
+
+/* =========================== MEDIA QUERIES ( SMALL DEVICES) ==============================*/
+@media screen and (max-width: 600px) {
+    .portfolio__card {
+        width: 100%;
+    }
+
+    .invert {
+        align-self: unset;
+        flex-direction: unset;
+    }
+
+    .invert > div {
+        margin-right: unset;
+        margin-left: 1.5rem;
+        text-align-last: unset;
+
+    }
+}
