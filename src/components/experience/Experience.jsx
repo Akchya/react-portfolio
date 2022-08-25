@@ -23,7 +23,7 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
-                <h4>CSS, SCSS</h4>
+                <h4>CSS</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
@@ -37,14 +37,21 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
-                <h4>JQuery, Ajax</h4>
+                <h4>React JS</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
-                <h4>React</h4>
+                <h4>Java</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon"/>
+              <div>
+                <h4>Bootstrap</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
@@ -54,40 +61,47 @@ const Experience = () => {
         {/* END FRONTEND */}
 
         <div className="experience__frontend">
-          <h3>Frontend Development</h3>
+          <h3>SFCC Development</h3>
           <div className="experience__content">
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
-                <h4>HTML</h4>
+                <h4>ISML</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
-                <h4>CSS, SCSS</h4>
+                <h4>SCSS</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
-                <h4>JavaScript</h4>
+                <h4>JQuery</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
-                <h4>JQuery, Ajax</h4>
+                <h4>MySQL</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon"/>
               <div>
-                <h4>React</h4>
+                <h4>Ajax</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon"/>
+              <div>
+                <h4>Merchandising BM Level</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>

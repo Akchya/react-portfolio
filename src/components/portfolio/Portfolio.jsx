@@ -21,16 +21,16 @@ const Portfolio = () => {
                 <IoSchoolSharp className='portfolio__icon'/>
                 <div>
                 <h2>2014 - 2016</h2>
-                  <h3>Bachelor of Engineering (Computer Science)</h3>
-                  <h4>KLE's KLE College of Engineering and Technology</h4>
+                  <h3>Higher Secondary Education</h3>
+                  <h4>GSS PU College, Belgaum(Science, Bio)</h4>
                 </div>
               </div>
               <div className="portfolio__card">
                 <IoSchoolSharp className='portfolio__icon'/>
                 <div>
                 <h2>2005 - 2014</h2>
-                  <h3>Bachelor of Engineering (Computer Science)</h3>
-                  <h4>KLE's KLE College of Engineering and Technology</h4>
+                  <h3>Secondary School Education</h3>
+                  <h4>Shri Hari Vidyalaya, Ugar Khurd</h4>
                 </div>
               </div>
             </div>

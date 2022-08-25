@@ -1,7 +1,8 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/me-about1.png'
-import {FaAward} from 'react-icons/fa'
+import {FaAward, FaGamepad} from 'react-icons/fa'
+import {BsFileCodeFill } from 'react-icons/bs'
 
 const About = () => {
   return (
@@ -20,22 +21,22 @@ const About = () => {
             <article className="about__card">
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>2 Years Experience</small>
+              <small>2 Years in Front-End</small>
             </article>
             <article className="about__card">
-              <FaAward className='about__icon'/>
-              <h5>Experience</h5>
-              <small>3+ Years Experience</small>
+              <BsFileCodeFill className='about__icon'/>
+              <h5>Projects</h5>
+              <small>5 Projects Done</small>
             </article>
             <article className="about__card">
-              <FaAward className='about__icon'/>
-              <h5>Experience</h5>
-              <small>3+ Years Experience</small>
+              <FaGamepad className='about__icon'/>
+              <h5>Interest</h5>
+              <small>LAN Games(BGMI)</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur velit sunt ipsum a ducimus ipsam qui omnis cumque magni sequi iste nihil architecto nisi minus, ratione illum officia repellendus. Quibusdam?
+            Enthusiastic SFCC Front-End Developer with 2 Years of experience eager to contribute to team sucess through hard work, attention to detail and excellent organizational skills. Quick learner with problem solving skills, good experience in Teamwork and Cooperation.
           </p>
 
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
