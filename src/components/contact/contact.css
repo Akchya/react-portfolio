@@ -36,6 +36,16 @@
     font-size: 0.8rem;
 }
 
+#contact {
+    height: 118vh;
+    padding-top: 7rem;
+    overflow: hidden;
+    background: url(../../assets/contact.jpg) no-repeat center center;
+    background-size: cover;
+    background-color: #222;
+    background-attachment: fixed;
+}
+
 /* ======================= FORM ============================ */
 form {
     display: flex;
@@ -44,13 +54,30 @@ form {
 }
 
 input, textarea {
+    font-family: 'Poppins', sans-serif;
     width: 100%;
     padding: 1.5rem;
     border-radius: 0.5rem;
     background: transparent;
-    border: 2px solid var(--color-primary-variant);
+    border: 2px solid #1f1f38;
     resize: none;
     color: var(--color-white);
+}
+
+input::placeholder, textarea::placeholder {
+    color: #fff;
+}
+
+.valid__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: fit-content;
+    transform: translate(10rem ,-4rem);
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+    transition: var(--transition);
 }
 
 /* =========================== MEDIA QUERIES ( MEDIUM DEVICES) ==============================*/
@@ -65,5 +92,8 @@ input, textarea {
 @media screen and (max-width: 600px) {
     .container.contact__container {
         width: var(--container-width-sm);
+    }
+    #contact {
+        height: 144vh;
     }
 }

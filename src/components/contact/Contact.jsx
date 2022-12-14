@@ -4,16 +4,22 @@ import {MdOutlineMailOutline} from 'react-icons/md'
 import {BsWhatsapp, BsLinkedin} from 'react-icons/bs'
 import {useRef} from 'react'
 import emailjs from 'emailjs-com'
+import Validation from './Validation'
 
 const Contact = () => {
   const form = useRef();
+  var snackBar = "";
 
   const sendEmail = (e) => {
     e.preventDefault();
 
+    if(e.target.name.value && e.target.email.value) {
+      snackBar = "success";
+    }
+
     emailjs.sendForm('service_ux7dwyf', 'template_fh6q1oe', form.current, 'CFz9T-Crvy47_MteL')
       .then((result) => {
-          console.log(result.text);
+          <Validation snackBar/>;
       }, (error) => {
           console.log(error.text);
       });
@@ -41,7 +47,7 @@ const Contact = () => {
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
-            <h5>8431-784878</h5>
+            <h5>+91 8431-784878</h5>
             <a href="https://api.whatsapp.com/send?phone=918431784878" target="_blank">Send a Message</a>
           </article>
         </div>
