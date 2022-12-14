@@ -41,8 +41,7 @@
 }
 
 #experience {
-    height: 100vh;
-    padding-top: 7rem;
+    padding: 7rem 0 4rem;
     overflow: hidden;
     background: url(../../assets/SFCC.png) no-repeat center center;
     background-size: cover;
@@ -82,6 +81,5 @@
     }
 
     #experience {
-        height: 120vh;
     }
 }

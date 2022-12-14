@@ -37,8 +37,7 @@
 }
 
 #contact {
-    height: 118vh;
-    padding-top: 7rem;
+    padding: 7rem 0 4rem;
     overflow: hidden;
     background: url(../../assets/contact.jpg) no-repeat center center;
     background-size: cover;
@@ -94,6 +93,6 @@ input::placeholder, textarea::placeholder {
         width: var(--container-width-sm);
     }
     #contact {
-        height: 144vh;
+        
     }
 }
